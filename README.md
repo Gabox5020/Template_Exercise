@@ -1,6 +1,6 @@
 <!-- HEADINGS -->
 
-## Template Examples
+## Template Exercise
 
 ### Description
 ---
