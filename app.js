@@ -1,15 +1,12 @@
 const lista = document.getElementById('lista')
-// console.log(lista)
 
-const arrayElement = ['primer elemento', 'segundo', 'tercero']
+const arrayItem = ["item1", "item2", "item3"];
 
-// arrayElement.forEach(item => {
-//     // console.log(item)
-//     const li = document.createElement('li')
-//         li.textContent = item
-//         lista.appendChild(li)
-// })
+const fragment = document.createDocumentFragment()
+// const fragment = new DocumentFragment()
 
-arrayElement.forEach(item => {
-    lista.innerHTML += `<li>${item}</li>`
+arrayItem.forEach(item => {
+    const li = document.createElement('li')
+    li.textContent = item
+    fragment.appendChild(li)
 })
