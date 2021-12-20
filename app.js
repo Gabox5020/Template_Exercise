@@ -10,5 +10,7 @@
 // console.log(document.querySelectorAll('h3'))
 
 const parrafo = document.querySelector('#parrafo')
-parrafo.textContent = 'texto desde JS'
-parrafo.innerHTML = '<b>texto con innerHTML</b>'
+parrafo.textContent = '<b>texto con innerHTML</b>'
+// parrafo.innerHTML = '<b>texto con innerHTML</b>'
+
+parrafo.classList.add('h3-danger', 'my-2')
