@@ -1,16 +1,7 @@
-// console.log('script vinculado')
+const lista = document.getElementById('lista')
+console.log(lista)
 
-// document.querySelector('h3')
-// console.log(document.querySelector('h3'))
-// console.log(document.querySelector('.h3-danger'))
-// console.log(document.querySelector('#parrafo'))
-// console.log(document.getElementById('parrafo'))
+const li = document.createElement('li')
+li.textContent = 'primer elemento'
 
-// console.log(document.querySelectorAll('.h3-danger'))
-// console.log(document.querySelectorAll('h3'))
-
-const parrafo = document.querySelector('#parrafo')
-parrafo.textContent = '<b>texto con innerHTML</b>'
-// parrafo.innerHTML = '<b>texto con innerHTML</b>'
-
-parrafo.classList.add('h3-danger', 'my-2')
+lista.appendChild(li)
